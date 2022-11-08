@@ -12,7 +12,7 @@
 }
 .navLink:hover{
     color: #c47a5e;
-    transition:  1ms;
+    transition: all 1ms;
     -webkit-transition: all 1ms;
     -moz-transition: all 1ms;
     -ms-transition: all 1ms;

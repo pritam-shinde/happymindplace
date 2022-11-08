@@ -1,5 +1,5 @@
 import React from 'react'
-import React from '../Components/Navbar'
+import Navbar from '../Components/Navbar'
 
 const ContactUs = () => {
   return (

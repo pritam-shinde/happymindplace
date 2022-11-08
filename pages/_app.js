@@ -6,7 +6,13 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import(`bootstrap/dist/js/bootstrap.bundle`)
   }, [])
-  return <Component {...pageProps} />
+  return (<>
+  {/* header */}
+  
+  <Component {...pageProps} />
+  //footer
+  </>)
+
 }
 
 export default MyApp

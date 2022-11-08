@@ -9,24 +9,24 @@ import NavCss from '../styles/Navbar.module.css'
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg px-lg-5">
-                <div class="container px-lg-5">
+            <nav className="navbar navbar-expand-lg px-lg-5">
+                <div className="container px-lg-5">
                     <Link href="/" />
-                    <a class={NavCss.navbarBrand} href="/">
+                    <a className={NavCss.navbarBrand} href="/">
                         <Image src={Logo} alt="Logo" layout='responsive' />
                     </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ms-auto">
-                            <Link class={`${NavCss.navLink} ${NavCss.Active}`} href="/index/" aria-current="page"> Home</Link>
-                            <Link class={NavCss.navLink} aria-current="page" href="/about-us/">About Us</Link>
-                            <Link class={NavCss.navLink} aria-current="page" href="/course/">Course</Link>
-                            <Link class={NavCss.navLink} aria-current="page" href="/store/">Store</Link>
-                            <Link class={NavCss.navLink} aria-current="page" href="/faq/">FAQ</Link>
-                            <Link class={NavCss.navLink} aria-current="page" href="/contact/">Contact us</Link>
+                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav ms-auto">
+                            <Link className={`${NavCss.navLink} ${NavCss.Active}`} href="/index/" aria-current="page"> Home</Link>
+                            <Link className={NavCss.navLink} aria-current="page" href="/about-us/">About Us</Link>
+                            <Link className={NavCss.navLink} aria-current="page" href="/course/">Course</Link>
+                            <Link className={NavCss.navLink} aria-current="page" href="/store/">Store</Link>
+                            <Link className={NavCss.navLink} aria-current="page" href="/faq/">FAQ</Link>
+                            <Link className={NavCss.navLink} aria-current="page" href="/contact/">Contact us</Link>
                         </div>
                     </div>
                 </div>

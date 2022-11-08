@@ -8,7 +8,7 @@ import Home from './home'
 const index = () => {
   return (
     <>
-      <Navbar></Navbar>
+      
       <Home></Home>
     </>
   )

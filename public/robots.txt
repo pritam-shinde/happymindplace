@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://happymindplace.com/
+
+# Sitemaps
+Sitemap: https://happymindplace.com/sitemap.xml

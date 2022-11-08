@@ -9,7 +9,7 @@ import NavCss from '../styles/Navbar.module.css'
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg px-lg-5">
+            <nav className="navbar navbar-expand-lg px-lg-5 fixed">
                 <div className="container px-lg-5">
                     <Link href="/" />
                     <a className={NavCss.navbarBrand} href="/">

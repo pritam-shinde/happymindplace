@@ -10,10 +10,8 @@ function MyApp({ Component, pageProps }) {
   return (<>
   {/* header */}
 
-  <Navbar/>
-  
+  <Navbar/>  
   <Component {...pageProps} />
-  //footer
   </>)
 
 }

@@ -14,7 +14,7 @@
     --h2-font-size-desktop: 3.125rem;
     --h2-font-size-tab: 2.8rem;
     --h2-font-size-mobile: 2.375rem;
-    --h3-font-size-desktop: 1.75rem;
+    --h3-font-size-desktop: 1.50rem;
     --h3-font-size-tab: 1.7rem;
     --h3-font-size-mobile: 1.625rem;
     --subtitle-font-size: 1rem;
@@ -38,3 +38,23 @@ h1, h2, h3, h4, h5, h6{
 .active{
     color: #c47a5e;
 }
+
+.home{
+    background-image: url('../Components/bannerbg_11zon.webp');
+    background-position: center top;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.Para{
+    margin-top: 8rem;
+    border: 1.2px solid #c47a5e;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+

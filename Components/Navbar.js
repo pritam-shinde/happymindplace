@@ -12,8 +12,8 @@ const Navbar = () => {
             <nav class="navbar navbar-expand-lg px-lg-5">
                 <div class="container px-lg-5">
                     <Link href="/" />
-                    <a class={NavCss.navbarBrand} href="/">
-                        <Image src={Logo} alt="Logo" layout='responsive' />
+                    <a class={NavCss.navbarBrand} href="/home/">
+                        <Image src={Logo} alt="" layout='responsive' />
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -27,11 +27,11 @@ const home = () => {
                                                 <Box mt={5} pt={5} >
                                                     <Grid container spacing={2}>
                                                         <Grid item xs={12} md={6} >
-                                                            <Box mt={5} pt={5} p={2} className='Para'>
-                                                                <Typography className='fw-semibold text-center' variant='h3'>Breathing Maditation <br /> Breathing Yoga <br /> Breathing Dance</Typography>
+                                                            <Box mt={5} pt={5}  p={2} className='Para'>
+                                                                <Typography className='fw-semibold text-center pb-4' variant='h3'>Breathing Maditation <br /> Breathing Yoga <br /> Breathing Dance</Typography>
                                                             </Box>
-                                                            <Box  p={2} className='place'>
-                                                                <Typography className='place fw-semibold text-center' variant='h5'>A PLACE OF MEDITATIONS</Typography>
+                                                            <Box className='place'>
+                                                                <Typography className='place fw-semibold text-center'>A PLACE OF MEDITATIONS</Typography>
                                                             </Box>
                                                         </Grid>
                                                         <Grid item xs={12} md={6}>
@@ -42,6 +42,22 @@ const home = () => {
                                                     </Grid>
                                                 </Box>
 
+
+                                            </Container>
+
+                                            <Container className='divSec' maxWidth='xxl'>
+
+                                                <Box p={5}>
+
+                                                    <Grid container>
+                                                        <Grid item xs={12} >
+                                                            <Box>
+                                                                <Typography className='shc' variant='p'>ABOUT HAPPY MIND</Typography>
+                                                            </Box>
+                                                        </Grid>
+                                                    </Grid>
+
+                                                </Box>
                                             </Container>
                                         </section>
                                     </Grid>

@@ -14,7 +14,7 @@
     --h2-font-size-desktop: 3.125rem;
     --h2-font-size-tab: 2.8rem;
     --h2-font-size-mobile: 2.375rem;
-    --h3-font-size-desktop: 1.50rem;
+    --h3-font-size-desktop: 1.35rem;
     --h3-font-size-tab: 1.7rem;
     --h3-font-size-mobile: 1.625rem;
     --subtitle-font-size: 1rem;
@@ -59,6 +59,19 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .place{
-    color: #c47a5e;       
+    color: #c47a5e;  
+    width: 80%;
+    font-size: 1.5rem;
+    background-color: #fff;
+    position: relative;
+    top: -3%;
+    left: 10%;     
 }
 
+.shc{
+    color: var(--subheading-color);
+}
+
+.divSec{
+    background-color: var(--e-global-color-secondary);
+}

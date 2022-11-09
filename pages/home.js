@@ -29,7 +29,9 @@ const home = () => {
                                                         <Grid item xs={12} md={6} >
                                                             <Box mt={5} pt={5} p={2} className='Para'>
                                                                 <Typography className='fw-semibold text-center' variant='h3'>Breathing Maditation <br /> Breathing Yoga <br /> Breathing Dance</Typography>
-                                                                <Typography className='fw-semibold text-center' variant='h5'>A PLACE OF MEDITATIONS</Typography>
+                                                            </Box>
+                                                            <Box  p={2} className='place'>
+                                                                <Typography className='place fw-semibold text-center' variant='h5'>A PLACE OF MEDITATIONS</Typography>
                                                             </Box>
                                                         </Grid>
                                                         <Grid item xs={12} md={6}>

@@ -17,6 +17,7 @@
     --h3-font-size-desktop: 1.35rem;
     --h3-font-size-tab: 1.7rem;
     --h3-font-size-mobile: 1.625rem;
+    --h6-font-size-desktop: 0.7rem;
     --subtitle-font-size: 1rem;
     --para-font-size: 0.875rem;
     --heading-font-weight: 400;
@@ -29,10 +30,35 @@
     transition: all 3s ease;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5{
     font-weight: var(--heading-font-weight) !important;
     font-family: var(--heading-font) !important;
     color: var(--heading-color) !important;
+}
+
+ul li{
+    /* font-family: var(--heading-font) !important; */
+    color: var(--e-global-color-secondary);
+    font-size: 1rem;
+    /* width: 50%; */
+    display: flex;
+    
+}
+
+h6{
+    font-size: 1rem !important;
+    font-family: var(--heading-font) !important;
+    color: var(--heading-color) !important;
+}
+
+.C-fs{
+    font-family: var(--heading-font) !important;
+    color: #fff;
+    font-size: 2.125rem;
+}
+
+p{
+    color: #555555;
 }
 
 .active{
@@ -42,7 +68,8 @@ h1, h2, h3, h4, h5, h6{
 .home{
     background-image: url('../Components/bannerbg_11zon.webp');
     background-position: center top;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -70,8 +97,26 @@ h1, h2, h3, h4, h5, h6{
 
 .shc{
     color: var(--subheading-color);
+    font-size: 0.8rem;
 }
 
 .divSec{
     background-color: var(--e-global-color-secondary);
+}
+
+.pfz{
+    font-size: var(--para-font-size);
+    color: #555555;
+}
+
+.CareerSec{
+    background-image: url('../Components/banner-3.webp');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Simage{
+    width: 1.9rem;
+    height: 1.9rem;
 }

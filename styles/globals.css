@@ -77,6 +77,10 @@ h6{
     h3{
         font-size: var(--h3-font-size-mobile) !important;
     }
+
+    h5{
+        font-size: 0.5rem;
+    }
 }
 
 @media only screen and (max-width: 601px) and (max-width: 992px){
@@ -94,21 +98,7 @@ h6{
 }
 
 
-#app { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
 
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
 
 .swiper {
   width: 100%;

@@ -15,9 +15,17 @@ import 'animate.css';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
 
 
 const Home = () => {
+
+
 
   const [width, setWidth] = useState();
 
@@ -28,7 +36,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        
+
 
       </Head>
       <main>
@@ -66,8 +74,8 @@ const Home = () => {
                   <Typography className={HomeCss.SecHead}>ABOUT HAPPY MIND</Typography>
                   <Typography variant='h4' className='py-3'>Everyone has a little mindset insight</Typography>
                   <Typography className={HomeCss.aboutP} variant='p'>Now a days everyone know about  Meditation but very few of them are practising daily with proper way.</Typography> <br />
-                  <Typography className={HomeCss.aboutP} variant='p'>‘Happy Mind’ - A place of meditation, where you will learn meditation techniques with appropriate way.</Typography> <br /> 
-                  <Typography variant='h6' className='py-2'>Join 'HAPPY MIND' Mindfulness Techniques and Meditation Retreat.</Typography> 
+                  <Typography className={HomeCss.aboutP} variant='p'>‘Happy Mind’ - A place of meditation, where you will learn meditation techniques with appropriate way.</Typography> <br />
+                  <Typography variant='h6' className='py-2'>Join 'HAPPY MIND' Mindfulness Techniques and Meditation Retreat.</Typography>
                   <Typography className={HomeCss.aboutP} variant='p'>This retreat will include playful and interactive group activities to help you better understand meditation and ultimately bring back awareness.</Typography> <br />
                   <Typography className={HomeCss.aboutP} variant='p'>Most people are likely familiar with the positive sides of meditation associated with mental health.</Typography> <br />
                   <Typography variant='h6' className='py-2 fst-italic'>The course is of tremendous help to build your mindfulness and awareness in a playful way to transit your daily life in a futuristic manner.</Typography>
@@ -159,7 +167,7 @@ const Home = () => {
                     <Grid item xs={12} md={4} >
                       <Box>
                         <Box className={HomeCss.client}>
-                        <Image src={Smile} layout="responsive" /></Box>                        
+                          <Image src={Smile} layout="responsive" /></Box>
                         <Typography variant='h1' ><CountUp end={250} />+</Typography>
                         <Typography className='py-2 text-secondary'> HAPPY CLIENT</Typography>
                       </Box>
@@ -168,7 +176,7 @@ const Home = () => {
                     <Grid item xs={12} md={4} >
                       <Box>
                         <Box className={HomeCss.client}>
-                          <Image src={Years} layout="responsive" /></Box>                        
+                          <Image src={Years} layout="responsive" /></Box>
                         <Typography variant='h1' ><CountUp end={15} />+</Typography>
                         <Typography className='py-2 text-secondary'> YEAR EXPERIENCE</Typography>
                       </Box>
@@ -177,12 +185,57 @@ const Home = () => {
                     <Grid item xs={12} md={4} >
                       <Box>
                         <Box className={HomeCss.client}>
-                          <Image src={Branch} layout="responsive" /></Box>                        
+                          <Image src={Branch} layout="responsive" /></Box>
                         <Typography variant='h1' ><CountUp end={15} />+</Typography>
                         <Typography className='py-2 text-secondary'> TOTAL BRANCH</Typography>
                       </Box>
                     </Grid>
 
+                  </Grid>
+                </Box>
+              </Grid>
+            </Grid>
+          </Container>
+        </section>
+
+
+        {/* Client */}
+        <section>
+          <Container maxWidth="xxl">
+            <Grid container >
+              <Grid item xs={12} md={10} className='mx-auto py-lg-4 my-lg-4 py-4 my-4'>
+                <Box>
+                  <Grid container spacing={3} className='text-center'>
+                    <Swiper
+                      spaceBetween={30}
+                      pagination={{
+                        clickable: true,
+                      }}
+                      modules={[Pagination]}
+                      className="mySwiper "
+                    >
+                      <SwiperSlide className='mb-5'>
+                      <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
+                      <Typography variant='h6' py={3}>-John Smith-</Typography>
+                      <Typography className={HomeCss.sliderText}>Client</Typography>
+                      </Typography><br />
+                      </SwiperSlide>
+
+                      <SwiperSlide className='mb-5'>
+                      <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
+                      <Typography variant='h6' py={3}>-Smith John-</Typography>
+                      <Typography className={HomeCss.sliderText}>Client</Typography>
+                      </Typography><br />
+                      </SwiperSlide>
+
+                      <SwiperSlide className='mb-5'>
+                      <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
+                      <Typography variant='h6' py={3}>-John Smith Dixit-</Typography>
+                      <Typography className={HomeCss.sliderText}>Client</Typography>
+                      </Typography><br />
+                      </SwiperSlide>
+
+                    </Swiper>
                   </Grid>
                 </Box>
               </Grid>

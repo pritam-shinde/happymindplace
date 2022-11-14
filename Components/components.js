@@ -1,7 +1,3 @@
-// Header
+export {default as Header} from './layout/header/Header'
+export {default as Index} from '../pages/index'
 
-export {default as Navbar} from './Navbar'
-
-// images
-
-export {default as BImage} from './banner-2.webp'

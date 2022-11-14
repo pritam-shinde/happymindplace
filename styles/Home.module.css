@@ -1,0 +1,123 @@
+.Border {
+    border: 1px solid #c47a5e !important;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2rem 0;
+    margin-top: 30%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+}
+
+.home{
+    background-image: url('../public/bannerbg_11zon.webp');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.para{
+    font-size: 1.5rem;
+    background-color: #fff;
+    font-weight: 800;
+    color: #c47a5e;
+    position: absolute;
+    left: 10%;
+    width: 80%;    
+    top: 93.5%;
+}
+.homeSec{
+    background-color: #f4ede6;
+}
+
+.SecHead{
+    font-size: 0.8rem;
+    color: #c47a5e;
+    font-weight: 600;
+}
+
+.aboutP{
+    font-size: 0.9rem;
+    color: #555555;
+    padding: 0.2rem 0rem;
+}
+
+.Meditation{
+    margin-top: 20%;
+}
+
+.ListIcon{
+    padding-right:1rem;
+}
+.ListC{
+    color: #f9d9cc;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+.Career{
+    background-image: url('../public/banner-3.webp');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client{
+    width: 15%;
+    margin: 0 auto;
+}
+
+
+.bannerText{
+    margin-top: 7.5rem;
+}
+
+.bannerImage{
+    width: 94%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and (max-width:1025px) {
+    .Border{
+        margin-top: 20%;
+    }
+
+    .para{
+        left: 25%;
+        font-size: 1.3rem;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .Border{
+        margin-top: 1%;
+    }
+    .para{
+        font-size: 1rem;
+        width: 60%;
+        left: 18%;
+    }
+
+    .home{
+        margin-top: 0%;
+    }
+
+    .Meditation{
+        margin-top: 10%;
+    }
+
+    .ListC{
+        color: #f9d9cc;
+        font-weight: 700;
+        font-size: 0.6rem;
+        padding: 0.5rem 0;
+    }
+}

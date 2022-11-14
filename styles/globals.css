@@ -8,115 +8,83 @@
     --e-global-color-415ba29: #fffdfa;
     --e-global-color-secondary: #f4ede6;
     --e-global-color-text: #b0b0b0;
-    --h1-font-size-desktop: 4.688rem;
-    --h1-font-size-tab: 4rem;
-    --h1-font-size-mobile: 3.438rem;
-    --h2-font-size-desktop: 3.125rem;
-    --h2-font-size-tab: 2.8rem;
-    --h2-font-size-mobile: 2.375rem;
-    --h3-font-size-desktop: 1.35rem;
-    --h3-font-size-tab: 1.7rem;
-    --h3-font-size-mobile: 1.625rem;
-    --h6-font-size-desktop: 0.7rem;
+    --h1-font-size-desktop: 3rem;
+    --h1-font-size-tab: 2.5rem;
+    --h1-font-size-mobile: 2rem;
+    --h2-font-size-desktop: 2.5rem;
+    --h2-font-size-tab: 2.1rem;
+    --h2-font-size-mobile: 1.8rem;
+    --h3-font-size-desktop: 1.8rem;
+    --h3-font-size-tab: 1.5rem;
+    --h3-font-size-mobile: 1.3rem;
+    --h6-font-size-desktop: 1rem;
     --subtitle-font-size: 1rem;
-    --para-font-size: 0.875rem;
-    --heading-font-weight: 400;
+    --para-font-size: 0.9rem;
+    --heading-font-weight: 600;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: all 3s ease;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: var(--heading-font-weight) !important;
     font-family: var(--heading-font) !important;
     color: var(--heading-color) !important;
 }
 
-ul li{
-    /* font-family: var(--heading-font) !important; */
-    color: var(--e-global-color-secondary);
-    font-size: 1rem;
-    /* width: 50%; */
-    display: flex;
-    
+h1 {
+    font-size: var(--h1-font-size-desktop) !important;
+}
+
+h2 {
+    font-size: var(--h2-font-size-desktop) !important;
+}
+
+h3{
+    font-size: var(--h3-font-size-desktop) !important;
 }
 
 h6{
-    font-size: 1rem !important;
-    font-family: var(--heading-font) !important;
-    color: var(--heading-color) !important;
+    font-size: var(--h6-font-size-desktop) !important;
 }
 
-.C-fs{
-    font-family: var(--heading-font) !important;
-    color: #fff;
-    font-size: 2.125rem;
+@media only screen and (max-width: 600px){
+    h1 {
+        font-size: var(--h1-font-size-mobile) !important;
+    }
+    
+    h2 {
+        font-size: var(--h2-font-size-mobile) !important;
+    }
+    
+    h3{
+        font-size: var(--h3-font-size-mobile) !important;
+    }
 }
 
-p{
-    color: #555555;
-}
-
-.active{
-    color: #c47a5e;
-}
-
-.home{
-    background-image: url('../Components/bannerbg_11zon.webp');
-    background-position: center top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-}
-
-.Para{
-    margin-top: 8rem;
-    border: 1.2px solid #c47a5e;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-}
-
-.place{
-    color: #c47a5e;  
-    width: 80%;
-    font-size: 1.5rem;
-    background-color: #fff;
-    position: relative;
-    top: -3%;
-    left: 10%;     
-}
-
-.shc{
-    color: var(--subheading-color);
-    font-size: 0.8rem;
-}
-
-.divSec{
-    background-color: var(--e-global-color-secondary);
-}
-
-.pfz{
-    font-size: var(--para-font-size);
-    color: #555555;
-}
-
-.CareerSec{
-    background-image: url('../Components/banner-3.webp');
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Simage{
-    width: 1.9rem;
-    height: 1.9rem;
+@media only screen and (max-width: 601px) and (max-width: 992px){
+    h1 {
+        font-size: var(--h1-font-size-tab) !important;
+    }
+    
+    h2 {
+        font-size: var(--h2-font-size-tab) !important;
+    }
+    
+    h3{
+        font-size: var(--h3-font-size-tab) !important;
+    }
 }

@@ -45,7 +45,7 @@ const Header = () => {
                             <nav className="navbar navbar-expand-lg">
                                 <Link href="/" legacyBehavior>
                                     <a className="navbar-brand" >
-                                        <Image src={Logo} alt="Logo" layout='responsive' />
+                                        <Image src={Logo} alt="Logo" layout='responsive' className={HeaderCss.navLogo}/>
                                     </a>
                                 </Link>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

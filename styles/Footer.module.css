@@ -4,7 +4,7 @@
 
 .logoWidth{
     width: 40%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .place{
@@ -67,7 +67,6 @@
 
 @media only screen and (max-width:900px) {
     .logoWidth{
-        width: 30%;
-        /* margin: 0 auto; */
+        width: 30%; 
     }
 }

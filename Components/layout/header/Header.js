@@ -53,11 +53,11 @@ const Header = () => {
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <ul className="navbar-nav ms-auto">
-                                        <li className='nav-item'><Link href="/" legacyBehavior><a className={HeaderCss.navLink}>Home</a></Link></li>
-                                        <li className='nav-item'><Link href="/about-us" legacyBehavior><a className={HeaderCss.navLink}>About Us</a></Link></li>
-                                        <li className='nav-item'><Link href="/course" legacyBehavior><a className={HeaderCss.navLink}>Course</a></Link></li>
-                                        <li className='nav-item'><Link href="/faq" legacyBehavior><a className={HeaderCss.navLink}>FAQ</a></Link></li>
-                                        <li className='nav-item'><Link href="/contact-us" legacyBehavior><a className={HeaderCss.navLink}>Contact Us</a></Link></li>
+                                        <li className='nav-item py-1'><Link href="/" legacyBehavior><a className={HeaderCss.navLink}>Home</a></Link></li>
+                                        <li className='nav-item py-1'><Link href="/about-us" legacyBehavior><a className={HeaderCss.navLink}>About Us</a></Link></li>
+                                        <li className='nav-item py-1'><Link href="/course" legacyBehavior><a className={HeaderCss.navLink}>Course</a></Link></li>
+                                        <li className='nav-item py-1'><Link href="/faq" legacyBehavior><a className={HeaderCss.navLink}>FAQ</a></Link></li>
+                                        <li className='nav-item py-1'><Link href="/contact-us" legacyBehavior><a className={HeaderCss.navLink}>Contact Us</a></Link></li>
                                     </ul>
                                 </div>
                             </nav>

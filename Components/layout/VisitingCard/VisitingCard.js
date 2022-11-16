@@ -22,7 +22,7 @@ const VisitingCard = () => {
                             <Grid container className='mx-auto'>
                                 <Grid item xs={12} md={12} >
                                     <Grid container>
-                                        <Grid item md={7} className={`mx-auto p-5 my-5 shadow  ${CardCss.card}`}>
+                                        <Grid item md={6} className={`mx-auto p-5 my-5 shadow  ${CardCss.card}`}>
                                             <Box className={`mx-sm-auto ${CardCss.logo}`}>
                                                 <Image src={Logo} layout='responsive' ></Image>
                                             </Box>

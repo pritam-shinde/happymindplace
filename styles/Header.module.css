@@ -1,5 +1,5 @@
 .navLink{
-    padding: 1rem;
+    padding: 0 1.5rem;
     color: #513135;
     font-size: 1rem;
     font-weight: 700;
@@ -16,7 +16,8 @@
 }
 
 .navLogo{
-    width: 70% !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 

@@ -15,7 +15,7 @@ const Footer = () => {
             <Grid item xs={12} md={10} className='mx-auto py-lg-4 my-lg-4 py-4 my-4'>
               <Box>
                 <Grid container spacing={3} >
-                  <Grid item xs={12} md={4} className='text-center'>
+                  <Grid item xs={12} md={4} >
                     <Box>
                       <Box className={FooterCss.logoWidth}>
                         <Image src={LogoF} layout="responsive" /></Box>
@@ -27,8 +27,8 @@ const Footer = () => {
                   <Grid item xs={12} md={4} >
                     <Box>
                       <Typography className={FooterCss.Quick}>Quick Link</Typography>
-                      <Box>
-                        <ul className='list-unstyled py-3'>
+                      <Box >
+                        <ul className='list-unstyled py-2' >
                           <li className='nav-item py-1'><Link href="/" legacyBehavior><a className={FooterCss.fLink}>Home</a></Link></li>
                           <li className='nav-item py-1'><Link href="/about-us" legacyBehavior><a className={FooterCss.fLink}>About Us</a></Link></li>
                           <li className='nav-item py-1'><Link href="/course" legacyBehavior><a className={FooterCss.fLink}>Course</a></Link></li>
@@ -40,17 +40,17 @@ const Footer = () => {
                   </Grid>
 
                   <Grid item xs={12} md={4} >
-                    <Box>
+                    <Box >
                       <Typography className={FooterCss.Quick}>Contact Us</Typography>
                       <Typography className={FooterCss.address}>251-B, 4th Floor, Subhash Apartment,
                         Opp Bank of Maharashtra, Main Road Nandnvan
                         NAGPUR</Typography>
-                      <Typography className='pb-2'>
-                      <Link href='/' className={` ${FooterCss.links}`}> <a> <b> Tel: </b> 820 835 8849</a></Link></Typography>
+                      <Typography className='pb-3'>
+                        <Link href='/' className={` ${FooterCss.links}`}> <a> <b> Tel: </b> 820 835 8849</a></Link></Typography>
                       <Typography>
-                      <Link href='/' className={` ${FooterCss.links}`}> <a ><b>Email:</b> info@happymindplace.com</a></Link></Typography>
+                        <Link href='/' className={` ${FooterCss.links}`}> <a ><b>Email:</b> info@happymindplace.com</a></Link></Typography>
                     </Box>
-                  </Grid>
+                  </Grid>                 
 
                 </Grid>
               </Box>

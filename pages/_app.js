@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { useEffect } from 'react'
-import { Header, Footer} from '../Components/components';
+import { Header, Footer, VisitingCard} from '../Components/components';
 import "swiper/css/bundle";
 
 
@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     <Header />
 
     <Component {...pageProps} />
-
+    <VisitingCard />
     <Footer/>
 
   </>)

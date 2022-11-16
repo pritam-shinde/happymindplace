@@ -1,0 +1,51 @@
+.about{
+    background-image: url('../public/bannerbg_11zon.webp');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.bannerImage{
+    width: 94%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bannerText{
+    margin-top: 7.5rem;
+}
+
+.Border {
+    border: 1px solid #c47a5e !important;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2rem 0;
+    margin-top: 25%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+}
+.homeSec{
+    background-color: #f4ede6;
+    margin: 2rem 0;
+}
+
+.SecHead{
+    font-size: 1rem;
+    color: #c47a5e;
+    font-weight: 600;
+}
+
+.aboutP{
+    font-size: 0.9rem;
+    color: #555555;
+    padding-bottom: 1rem;
+}
+
+.Meditation{
+    margin-top: 11%;
+}

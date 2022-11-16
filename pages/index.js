@@ -72,14 +72,13 @@ const Home = () => {
               <Grid item xs={12} md={10} className='mx-auto py-lg-3 py-3 my-3 my-lg-3  text-center'>
                 <Box>
                   <Typography className={HomeCss.SecHead}>ABOUT HAPPY MIND</Typography>
-                  <Typography variant='h4' className='py-3'>Everyone has a little mindset insight</Typography>
+                  <Typography variant='h4' className='py-3'>"MEDITATION NOURUSHES THE MIND AS FOOD NOURISHES THE BODY"</Typography>
                   <Typography className={HomeCss.aboutP} variant='p'>Now a days everyone know about  Meditation but very few of them are practising daily with proper way.</Typography> <br />
                   <Typography className={HomeCss.aboutP} variant='p'>‘Happy Mind’ - A place of meditation, where you will learn meditation techniques with appropriate way.</Typography> <br />
                   <Typography variant='h6' className='py-2'>Join 'HAPPY MIND' Mindfulness Techniques and Meditation Retreat.</Typography>
                   <Typography className={HomeCss.aboutP} variant='p'>This retreat will include playful and interactive group activities to help you better understand meditation and ultimately bring back awareness.</Typography> <br />
                   <Typography className={HomeCss.aboutP} variant='p'>Most people are likely familiar with the positive sides of meditation associated with mental health.</Typography> <br />
                   <Typography variant='h6' className='py-2 fst-italic'>The course is of tremendous help to build your mindfulness and awareness in a playful way to transit your daily life in a futuristic manner.</Typography>
-
                 </Box>
               </Grid>
             </Grid>
@@ -94,7 +93,7 @@ const Home = () => {
                 <Box>
                   <Grid container spacing={3} >
                     <Grid item xs={12} md={6} >
-                      <Box>
+                      <Box className={HomeCss.bannerImage}>
                         <Image src={MeditationImage} layout="responsive" />
                       </Box>
                     </Grid>
@@ -106,6 +105,12 @@ const Home = () => {
                         <Typography className={HomeCss.aboutP} variant='p'>You're not trying to turn off your thoughts or feelings, you're learning to observe them without judgment.</Typography>
                         <Typography className={HomeCss.aboutP} variant='p'>And eventually, you will start to better understand them as well.</Typography>
                         <Typography className={HomeCss.aboutP} variant='p'>It will be an intense process to learn meditation in your busy schedule with special way and experts in the sector.</Typography>
+                      </Box>
+
+                      <Box className={`animate__animated animate__fadeInUp py-4`}>
+                        <Typography variant='h4' className='py-lg-3'>To Whom This Reyreat is Suitable?</Typography>
+                        <Typography className={HomeCss.aboutP} variant='p'>This retreat is open for all the levels of meditators, </Typography>
+                        <Typography className={HomeCss.SecHead} variant='p'>even if you have never meditated before</Typography>
                       </Box>
                     </Grid>
                   </Grid>
@@ -146,7 +151,7 @@ const Home = () => {
                       </Box>
                     </Grid>
                     <Grid item xs={12} md={6} >
-                      <Box py={5} className='animate__animated animate__fadeInDown'>
+                      <Box py={5} className={`animate__animated animate__fadeInDown ${HomeCss.bannerImage}`}>
                         <Image src={CoursesImage} layout="responsive" />
                       </Box>
                     </Grid>
@@ -167,7 +172,8 @@ const Home = () => {
                     <Grid item xs={12} md={4} >
                       <Box>
                         <Box className={HomeCss.client}>
-                          <Image src={Smile} layout="responsive" /></Box>
+                          <Image src={Smile} layout="responsive" />
+                        </Box>
                         <Typography variant='h1' ><CountUp end={250} />+</Typography>
                         <Typography className='py-2 text-secondary'> HAPPY CLIENT</Typography>
                       </Box>
@@ -203,7 +209,7 @@ const Home = () => {
         <section>
           <Container maxWidth="xxl">
             <Grid container >
-              <Grid item xs={12} md={10} className='mx-auto py-lg-4 my-lg-4 py-4 my-4'>
+              <Grid item xs={11} md={10} className='mx-auto py-lg-4 my-lg-4 py-4 my-4'>
                 <Box>
                   <Grid container spacing={3} className='text-center'>
                     <Swiper
@@ -215,24 +221,24 @@ const Home = () => {
                       className="mySwiper "
                     >
                       <SwiperSlide className='mb-5'>
-                      <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
-                      <Typography variant='h6' py={3}>-John Smith-</Typography>
-                      <Typography className={HomeCss.sliderText}>Client</Typography>
-                      </Typography><br />
+                        <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
+                          <Typography variant='h6' py={3}>-John Smith-</Typography>
+                          <Typography className={HomeCss.sliderText}>Client</Typography>
+                        </Typography><br />
                       </SwiperSlide>
 
                       <SwiperSlide className='mb-5'>
-                      <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
-                      <Typography variant='h6' py={3}>-Smith John-</Typography>
-                      <Typography className={HomeCss.sliderText}>Client</Typography>
-                      </Typography><br />
+                        <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
+                          <Typography variant='h6' py={3}>-Smith John-</Typography>
+                          <Typography className={HomeCss.sliderText}>Client</Typography>
+                        </Typography><br />
                       </SwiperSlide>
 
                       <SwiperSlide className='mb-5'>
-                      <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
-                      <Typography variant='h6' py={3}>-John Smith Dixit-</Typography>
-                      <Typography className={HomeCss.sliderText}>Client</Typography>
-                      </Typography><br />
+                        <Typography variant='h5' className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sed provident laboriosam molestiae qui, consectetur veritatis nisi dicta eaque eveniet, libero perferendis ut excepturi earum ipsam rem et fugiat dolores?
+                          <Typography variant='h6' py={3}>-John Smith Dixit-</Typography>
+                          <Typography className={HomeCss.sliderText}>Client</Typography>
+                        </Typography><br />
                       </SwiperSlide>
 
                     </Swiper>

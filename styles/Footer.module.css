@@ -18,7 +18,7 @@
     color: #f0d9cc;
     font-size: 0.8rem;
     font-weight: 700;
-    padding: 0 3rem;
+    /* padding: 0 2rem; */
     font-family: "Poppins", sans-serif;;
 }
 
@@ -40,12 +40,13 @@
 .Quick{
     font-family: "Poppins", sans-serif;
     color: #fff;
+    font-weight: 600;
 }
 
 .address{
     font-family: "Poppins", sans-serif;
     color: #f0d9cc;
-    padding: 1.2rem 0;
+    padding: 1.1rem 0;
 
 }
 
@@ -62,4 +63,11 @@
     -moz-transition: all 0.5s ;
     -ms-transition: all 0.5s ;
     -o-transition: all 0.5s ;
+}
+
+@media only screen and (max-width:900px) {
+    .logoWidth{
+        width: 30%;
+        /* margin: 0 auto; */
+    }
 }

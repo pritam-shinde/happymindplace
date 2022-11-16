@@ -1,0 +1,50 @@
+.logo{
+    width: 40%;
+}
+
+.card{
+    background-color: #faf4f2;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+.SecHead{
+    font-size: 1rem;
+    color: #c47a5e;
+    font-weight: 500;
+}
+
+.SecLink{
+    font-size: 1rem;
+    color: #8b3b1e;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.SecLink:hover{
+    color: #c47a5e;
+    transition: all 0.5ms ease-in-out;
+    -webkit-transition: all 0.5ms ease-in-out;
+    -moz-transition: all 0.5ms ease-in-out;
+    -ms-transition: all 0.5ms ease-in-out;
+    -o-transition: all 0.5ms ease-in-out;
+}
+
+@media only screen and (max-width:900px) {
+    .logo{
+        width: 75%;
+    }
+
+    .card{
+        display: block;
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+}

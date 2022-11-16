@@ -4,7 +4,6 @@
 
 .logoWidth{
     width: 40%;
-    /* margin: 0 auto; */
 }
 
 .place{
@@ -18,7 +17,6 @@
     color: #f0d9cc;
     font-size: 0.8rem;
     font-weight: 700;
-    /* padding: 0 2rem; */
     font-family: "Poppins", sans-serif;;
 }
 

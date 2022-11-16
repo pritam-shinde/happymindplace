@@ -84,6 +84,7 @@ const AboutUs = () => {
           </Grid>
         </Container>
       </section>
+    
     </>
 
   )

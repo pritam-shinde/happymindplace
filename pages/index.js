@@ -100,7 +100,7 @@ const Home = () => {
                     <Grid item xs={12} md={6}  >
                       <Box className={`animate__animated animate__fadeInUp ${HomeCss.Meditation}`}>
                         <Typography className={HomeCss.SecHead}>MEDITATION</Typography>
-                        <Typography variant='h4' className='py-lg-3'>What is Meditation?</Typography>
+                        <Typography variant='h4' className='py-lg-3 py-3'>What is Meditation?</Typography>
                         <Typography className={HomeCss.aboutP} variant='p'>It's about training in awareness and getting a healthy sense of perspective.</Typography>
                         <Typography className={HomeCss.aboutP} variant='p'>You're not trying to turn off your thoughts or feelings, you're learning to observe them without judgment.</Typography>
                         <Typography className={HomeCss.aboutP} variant='p'>And eventually, you will start to better understand them as well.</Typography>
@@ -108,7 +108,7 @@ const Home = () => {
                       </Box>
 
                       <Box className={`animate__animated animate__fadeInUp py-4`}>
-                        <Typography variant='h4' className='py-lg-3'>To Whom This Reyreat is Suitable?</Typography>
+                        <Typography variant='h4' className='py-lg-3 py-3'>To Whom This Reyreat is Suitable?</Typography>
                         <Typography className={HomeCss.aboutP} variant='p'>This retreat is open for all the levels of meditators, </Typography>
                         <Typography className={HomeCss.SecHead} variant='p'>even if you have never meditated before</Typography>
                       </Box>
@@ -130,7 +130,7 @@ const Home = () => {
                     <Grid item xs={12} md={6}  >
                       <Box className={`animate__animated animate__fadeInUp ${HomeCss.Meditation}`}>
                         <Typography className={HomeCss.SecHead}>COURSES</Typography>
-                        <Typography variant='h4' className='text-white py-lg-3'>What is Meditation?</Typography>
+                        <Typography variant='h4' className='text-white py-lg-3 py-3'>What is Meditation?</Typography>
                         <Box className='d-flex justify-content-between'>
                           <ul className='list-unstyled '>
                             <li className={HomeCss.ListC}><span className={HomeCss.ListIcon}><Image src={ListItemPic} ></Image></span>Couple Meditation</li>

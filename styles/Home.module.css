@@ -29,6 +29,8 @@
     width: 80%;    
     top: 92%;
 }
+
+
 .homeSec{
     background-color: #f4ede6;
     margin: 2rem 0;
@@ -153,4 +155,6 @@
         font-size: 0.6rem;
         padding: 0.5rem 0;
     }
+
+   
 }

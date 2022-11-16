@@ -14,7 +14,7 @@ const VisitingCard = () => {
                 <Container maxWidth="xxl">
                     <Grid container >
                         <Grid item xs={12} md={10} className='mx-auto py-lg-3 py-md-0 my-lg-3 my-md-0 py-0'>
-                            <Box className='text-center'>
+                            <Box className='text-center py-5'>
                                 <Typography variant='h5'>To know more your self with the help of</Typography>
                                 <Typography variant='h1'>Astrology, Tarot Card Reading</Typography>
                                 <Typography variant='h5'>and Persoality Development Test</Typography>

@@ -49,3 +49,13 @@
 .Meditation{
     margin-top: 11%;
 }
+
+@media only screen and (max-width: 520px){
+    .bannerImage{
+        width: 70%;
+    }
+
+    .Border {
+        margin-top: 10%;
+    }
+}

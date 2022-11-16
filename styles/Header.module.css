@@ -31,13 +31,5 @@
     .navLogo{
         width: 90% !important;
     }   
-
-    .navLink{
-        /* padding: 1rem 1.5rem; */
-        color: #513135;
-        font-size: 1rem;
-        font-weight: 700;
-        text-decoration: none;
-    }
 }
 

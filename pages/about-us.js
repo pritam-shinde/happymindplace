@@ -12,7 +12,7 @@ const AboutUs = () => {
   return (
     <>
       <section>
-        <Container maxWidth="xxl" className={HomeCss.about}>
+        <Container maxWidth="xxl" className={HomeCss.home}>
           <Grid container >
             <Grid item xs={12} md={10} className="mx-auto">
               <Box py={3} className={HomeCss.bannerText} >

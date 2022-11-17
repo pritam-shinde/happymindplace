@@ -92,6 +92,24 @@
     color: #c47a5e;
 }
 
+.faq{
+    background-color: #6f5449;
+}
+
+.faqAns{
+    background-color: #c47a5e;
+}
+
+.faqBorder{
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+
+
 
 @media only screen and (max-width:1025px) {
     .Border{
@@ -154,7 +172,5 @@
         font-weight: 700;
         font-size: 0.6rem;
         padding: 0.5rem 0;
-    }
-
-   
+    }   
 }

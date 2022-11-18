@@ -118,6 +118,26 @@
     font-family: "Poppins", sans-serif;;
 }
 
+.icons{
+    font-size: 3rem;
+    color: #c47a5e;
+}
+
+.PhoneIcon{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.IconBackgrond{
+    background-color: #f4ede6;
+    height: 13rem;
+}
+
+.IconPhone{
+    height: 13rem;
+    background-color: #c47a5e;
+}
+
 
 
 

@@ -3,7 +3,10 @@ import { Box, Container, Grid, Typography } from '@mui/material'
 import BannerImage from '../public/Untitled-1_11zon.webp';
 import HomeCss from '../styles/Home.module.css';
 import TextField from '@mui/material/TextField';
-
+import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
+import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import Link from 'next/link'
 
 const ContactUs = () => {
 
@@ -32,6 +35,54 @@ const ContactUs = () => {
                       <img src={BannerImage.src} className={`${HomeCss.bannerImage} mx-auto`} />
                     </Box>
                   </Grid>
+                </Grid>
+              </Box>
+            </Grid>
+          </Grid>
+        </Container>
+      </section>
+
+      {/* Client */}
+      <section>
+        <Container maxWidth="xxl">
+          <Grid container >
+            <Grid item xs={12} md={10} className='mx-auto py-lg-4 my-lg-4 py-4 my-4'>
+              <Box>
+                <Grid container spacing={3} className='text-center'>
+                  <Grid item xs={12} md={4} >
+                    <Box className={`py-3 ${HomeCss.IconBackgrond}`}>
+                      <Box>
+                        <MapOutlinedIcon className={HomeCss.icons} />
+                      </Box>
+                      <Typography className='py-2' variant='h3'> Address</Typography>
+                      <Typography className=' text-black-50' > 251 B, 4th floor, 
+                        Subhash Apartment, <br />
+                        Opp. Bank of Maharashtra, 
+                        Main Road Nandanvan, 
+                        Nagpur.</Typography>
+
+                    </Box>
+                  </Grid>
+
+                  <Grid item xs={12} md={4} >
+                    <Box className={`py-3 ${HomeCss.IconPhone}`}>
+                      <Box>
+                        <LocalPhoneOutlinedIcon className={HomeCss.PhoneIcon} /></Box>
+                      <Typography className='py-2 text-white' variant='h3'> Contact</Typography>
+                      <Link href="/" legacyBehavior><a className='text-white'>820 835 8849</a></Link> <br />
+                      <Link href="/" legacyBehavior><a className='text-white'>820 835 8849</a></Link>
+                    </Box>
+                  </Grid>
+
+                  <Grid item xs={12} md={4} >
+                    <Box className={`py-3 ${HomeCss.IconBackgrond}`}>
+                      <Box>
+                        <EmailOutlinedIcon className={HomeCss.icons} /> </Box>
+                      <Typography className='py-2' variant='h3'> Email</Typography>
+                      <Typography className='py-2 text-black-50'> info@happymindplace.com</Typography>
+                    </Box>
+                  </Grid>
+
                 </Grid>
               </Box>
             </Grid>
@@ -80,9 +131,9 @@ const ContactUs = () => {
                           />
 
                         </Grid>
-                          <button type="submit" className={HomeCss.button}>SEND MESSAGE</button>
+                        <button type="submit" className={HomeCss.button}>SEND MESSAGE</button>
 
-                        
+
                       </Grid>
                     </Box>
                   </Grid>

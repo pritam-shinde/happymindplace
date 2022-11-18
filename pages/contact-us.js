@@ -50,7 +50,7 @@ const ContactUs = () => {
               <Box>
                 <Grid container spacing={3} className='text-center'>
                   <Grid item xs={12} md={4} >
-                    <Box className={`py-3 ${HomeCss.IconBackgrond}`}>
+                    <Box className={`py-3 shadow-lg ${HomeCss.IconBackgrond}`}>
                       <Box>
                         <MapOutlinedIcon className={HomeCss.icons} />
                       </Box>
@@ -65,7 +65,7 @@ const ContactUs = () => {
                   </Grid>
 
                   <Grid item xs={12} md={4} >
-                    <Box className={`py-3 ${HomeCss.IconPhone}`}>
+                    <Box className={`py-3 shadow-lg ${HomeCss.IconPhone}`}>
                       <Box>
                         <LocalPhoneOutlinedIcon className={HomeCss.PhoneIcon} /></Box>
                       <Typography className='py-2 text-white' variant='h3'> Contact</Typography>
@@ -75,7 +75,7 @@ const ContactUs = () => {
                   </Grid>
 
                   <Grid item xs={12} md={4} >
-                    <Box className={`py-3 ${HomeCss.IconBackgrond}`}>
+                    <Box className={`py-3 shadow-lg ${HomeCss.IconBackgrond}`}>
                       <Box>
                         <EmailOutlinedIcon className={HomeCss.icons} /> </Box>
                       <Typography className='py-2' variant='h3'> Email</Typography>

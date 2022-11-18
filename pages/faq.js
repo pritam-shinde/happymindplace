@@ -63,7 +63,7 @@ const FAQ = () => {
                             <Typography>Question 1</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography>
+                            <Typography className='text-white-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -79,7 +79,7 @@ const FAQ = () => {
                             <Typography>Question 2</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography>
+                            <Typography className='text-white-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -95,7 +95,7 @@ const FAQ = () => {
                             <Typography>Question 3</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography>
+                            <Typography className='text-white-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -111,7 +111,7 @@ const FAQ = () => {
                             <Typography>Question 4</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography>
+                            <Typography className='text-white-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -127,7 +127,7 @@ const FAQ = () => {
                             <Typography>Question 5</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography>
+                            <Typography className='text-white-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>

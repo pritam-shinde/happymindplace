@@ -59,10 +59,10 @@ const ContactUs = () => {
                   <Grid item xs={12} md={6} >
                     <Box>
                       <Grid container >
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={6} md={6}>
                           <TextField id="outlined-basic" label="Name" variant="outlined" />
                         </Grid>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={6} md={6}>
                           <TextField id="outlined-basic" label="Lastname" variant="outlined" />
                         </Grid>
 
@@ -78,7 +78,11 @@ const ContactUs = () => {
                             fullWidth
                             rows={4}
                           />
+
                         </Grid>
+                          <button type="submit" className={HomeCss.button}>SEND MESSAGE</button>
+
+                        
                       </Grid>
                     </Box>
                   </Grid>

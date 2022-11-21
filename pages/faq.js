@@ -63,7 +63,7 @@ const FAQ = () => {
                             <Typography variant='h6'>How much does it cost for membership?</Typography>
                           </AccordionSummary>
                           <AccordionDetails >
-                            <Typography className='text-black-50'>
+                            <Typography className='text-black-50 bg-white'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -79,7 +79,7 @@ const FAQ = () => {
                             <Typography variant='h6'>What classes do you have?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-black-50'>
+                            <Typography className='text-black-50 bg-white'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -95,7 +95,7 @@ const FAQ = () => {
                             <Typography variant='h6'>What type of yoga do you teach?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-black-50'>
+                            <Typography className='text-black-50 bg-white'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -111,7 +111,7 @@ const FAQ = () => {
                             <Typography variant='h6'>What is the timing?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-black-50'>
+                            <Typography className='text-black-50 bg-white'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -127,7 +127,7 @@ const FAQ = () => {
                             <Typography variant='h6'>How much time does it requires?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-black-50'>
+                            <Typography className='text-black-50 bg-white'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>

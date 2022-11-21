@@ -52,7 +52,7 @@ const FAQ = () => {
                     <Box className={`animate__animated animate__fadeInUp ${HomeCss.Meditation}`}>
                       <Typography className={HomeCss.SecHead}>COURSES</Typography>
                       <Typography variant='h4' className='text-white py-lg-3 py-3'>What is Meditation?</Typography>
-                      <Box  className='shadow-lg my-5'>
+                      <Box  className='shadow-lg my-4'>
                         <Accordion className={HomeCss.faqBorder}>
                           <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
@@ -60,10 +60,10 @@ const FAQ = () => {
                             id="panel1a-header"
                             className={HomeCss.faq}
                           >
-                            <Typography>Question 1</Typography>
+                            <Typography variant='h6'>How much does it cost for membership?</Typography>
                           </AccordionSummary>
-                          <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-white-50'>
+                          <AccordionDetails >
+                            <Typography className='text-black-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -76,10 +76,10 @@ const FAQ = () => {
                             id="panel2a-header"
                             className={HomeCss.faq}
                           >
-                            <Typography>Question 2</Typography>
+                            <Typography variant='h6'>What classes do you have?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-white-50'>
+                            <Typography className='text-black-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -92,10 +92,10 @@ const FAQ = () => {
                             id="panel2a-header"
                             className={HomeCss.faq}
                           >
-                            <Typography>Question 3</Typography>
+                            <Typography variant='h6'>What type of yoga do you teach?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-white-50'>
+                            <Typography className='text-black-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -108,10 +108,10 @@ const FAQ = () => {
                             id="panel2a-header"
                             className={HomeCss.faq}
                           >
-                            <Typography>Question 4</Typography>
+                            <Typography variant='h6'>What is the timing?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-white-50'>
+                            <Typography className='text-black-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>
@@ -124,10 +124,10 @@ const FAQ = () => {
                             id="panel2a-header"
                             className={HomeCss.faq}
                           >
-                            <Typography>Question 5</Typography>
+                            <Typography variant='h6'>How much time does it requires?</Typography>
                           </AccordionSummary>
                           <AccordionDetails className={HomeCss.faqAns}>
-                            <Typography className='text-white-50'>
+                            <Typography className='text-black-50'>
                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                               malesuada lacus ex, sit amet blandit leo lobortis eget.
                             </Typography>

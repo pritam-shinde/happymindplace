@@ -88,8 +88,8 @@ const FAQ = () => {
                         <Accordion>
                           <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
+                            aria-controls="panel3a-content"
+                            id="panel3a-header"
                             className={HomeCss.faq}
                           >
                             <Typography variant='h6'>What type of yoga do you teach?</Typography>
@@ -104,8 +104,8 @@ const FAQ = () => {
                         <Accordion>
                           <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
+                            aria-controls="panel4a-content"
+                            id="panel4a-header"
                             className={HomeCss.faq}
                           >
                             <Typography variant='h6'>What is the timing?</Typography>
@@ -120,8 +120,8 @@ const FAQ = () => {
                         <Accordion>
                           <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
+                            aria-controls="panel5a-content"
+                            id="panel5a-header"
                             className={HomeCss.faq}
                           >
                             <Typography variant='h6'>How much time does it requires?</Typography>

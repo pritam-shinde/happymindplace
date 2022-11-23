@@ -13,7 +13,7 @@ import Image from 'next/legacy/image'
 
 const FAQ = () => {
 
-  return (
+  return (  
     <>
 
       {/* Banner Section */}

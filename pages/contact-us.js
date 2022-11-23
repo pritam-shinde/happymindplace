@@ -69,8 +69,7 @@ const ContactUs = () => {
                       <Box>
                         <LocalPhoneOutlinedIcon className={HomeCss.PhoneIcon} /></Box>
                       <Typography className='py-2 text-white' variant='h3'> Contact</Typography>
-                      <Link href="/" legacyBehavior><a className='text-white'>820 835 8849</a></Link> <br />
-                      <Link href="/" legacyBehavior><a className='text-white'>820 835 8849</a></Link>
+                      <Link href="tel:8208358849" legacyBehavior><a className='text-white text-decoration-none'>+91 820 835 8849</a></Link> <br />
                     </Box>
                   </Grid>
 
@@ -79,7 +78,7 @@ const ContactUs = () => {
                       <Box>
                         <EmailOutlinedIcon className={HomeCss.icons} /> </Box>
                       <Typography className='py-2' variant='h3'> Email</Typography>
-                      <Typography className='py-2 text-black-50'> info@happymindplace.com</Typography>
+                      <Link href="mailto:info@happymindplace.com" legacyBehavior><a className='text-black-50 text-decoration-none'>info@happymindplace.com</a></Link> <br />
                     </Box>
                   </Grid>
 
@@ -101,7 +100,7 @@ const ContactUs = () => {
                   <Grid item xs={12} md={6}  >
                     <Box className={`animate__animated animate__fadeInUp ${HomeCss.Meditation}`}>
                       <Typography className={HomeCss.SecHead}>OUR CONTACT</Typography>
-                      <Typography variant='h1' className='py-lg-3 py-3'>Get in touch with us</Typography>
+                      <Typography variant='h2' className='py-lg-3 py-3'>Get in touch with us</Typography>
                       <Typography className={HomeCss.aboutP} variant='p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</Typography>
                     </Box>
 

@@ -174,7 +174,7 @@ const Home = () => {
                         <Box className={HomeCss.client}>
                           <Image src={Smile} layout="responsive" />
                         </Box>
-                        <Typography variant='h1' ><CountUp end={250} />+</Typography>
+                        <Typography variant='h2' ><CountUp end={250} />+</Typography>
                         <Typography className='py-2 text-secondary'> HAPPY CLIENT</Typography>
                       </Box>
                     </Grid>
@@ -183,7 +183,7 @@ const Home = () => {
                       <Box>
                         <Box className={HomeCss.client}>
                           <Image src={Years} layout="responsive" /></Box>
-                        <Typography variant='h1' ><CountUp end={15} />+</Typography>
+                        <Typography variant='h2' ><CountUp end={15} />+</Typography>
                         <Typography className='py-2 text-secondary'> YEAR EXPERIENCE</Typography>
                       </Box>
                     </Grid>
@@ -192,7 +192,7 @@ const Home = () => {
                       <Box>
                         <Box className={HomeCss.client}>
                           <Image src={Branch} layout="responsive" /></Box>
-                        <Typography variant='h1' ><CountUp end={15} />+</Typography>
+                        <Typography variant='h2' ><CountUp end={15} />+</Typography>
                         <Typography className='py-2 text-secondary'> TOTAL BRANCH</Typography>
                       </Box>
                     </Grid>
@@ -205,7 +205,7 @@ const Home = () => {
         </section>
 
 
-        {/* Client */}
+        {/* carousel */}
         <section>
           <Container maxWidth="xxl">
             <Grid container >

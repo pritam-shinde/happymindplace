@@ -17,10 +17,10 @@ const Footer = () => {
                 <Grid container spacing={3} >
                   <Grid item xs={12} md={4} >
                     <Box>
-                      <Box className={FooterCss.logoWidth}>
+                      <Box className={`mx-auto ${FooterCss.logoWidth}`}>
                         <Image src={LogoF} layout="responsive" /></Box>
-                      <Typography className={`py-2 ${FooterCss.place}`}>A Place of Meditations</Typography>
-                      <Typography className={FooterCss.more}>MEDITATION, ASTROLOGY & TAROT CARD READING GUIDANCE</Typography>
+                      <Typography className={`py-2 text-center ${FooterCss.place}`}>A Place of Meditations</Typography>
+                      <Typography className={`text-center ${FooterCss.more}`}>MEDITATION, ASTROLOGY & TAROT CARD READING GUIDANCE</Typography>
                     </Box>
                   </Grid>
 
@@ -43,12 +43,11 @@ const Footer = () => {
                     <Box >
                       <Typography className={FooterCss.Quick}>Contact Us</Typography>
                       <Typography className={FooterCss.address}>251-B, 4th Floor, Subhash Apartment,
-                        Opp Bank of Maharashtra, Main Road Nandnvan
-                        NAGPUR</Typography>
+                        Opp Bank of Maharashtra, Main Road Nandnvan, Nagpur.</Typography>
                       <Typography className='pb-3'>
-                        <Link href='/' className={` ${FooterCss.links}`}> <a> <b> Tel: </b> 820 835 8849</a></Link></Typography>
+                        <Link href='tel:8208358849' className={` ${FooterCss.links}`}> <a> <strong> Tel: </strong> 820 835 8849</a></Link></Typography>
                       <Typography>
-                        <Link href='/' className={` ${FooterCss.links}`}> <a ><b>Email:</b> info@happymindplace.com</a></Link></Typography>
+                        <Link href='mailto:info@happymindplace.com' className={` ${FooterCss.links}`}> <a > <strong> Email: </strong> info@happymindplace.com</a></Link></Typography>
                     </Box>
                   </Grid>                 
 

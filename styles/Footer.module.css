@@ -8,15 +8,15 @@
 
 .place{
     color: #c47a5e;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
     font-family: "Poppins", sans-serif;;
 }
 
 .more{
     color: #f0d9cc;
-    font-size: 0.8rem;
-    font-weight: 700;
+    font-size: 0.8rem !important; 
+    font-weight: 700 !important;
     font-family: "Poppins", sans-serif;;
 }
 

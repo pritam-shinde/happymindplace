@@ -36,14 +36,14 @@
 }
 
 .Quick{
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
     color: #fff;
     font-weight: 600 !important;
     font-size: 1.2rem !important;
 }
 
 .address{
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
     color: #f0d9cc;
     padding: 1.1rem 0;
 

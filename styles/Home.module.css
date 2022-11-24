@@ -43,9 +43,9 @@
     margin-right: auto;
 }
 .SecHead{
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
     color: #c47a5e;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .aboutP{

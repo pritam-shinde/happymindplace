@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import AboutImage from '../public/Untitled-1.png'
 import HomeCss from '../styles/Home.module.css';
 import { Box, Container, Grid, Typography } from '@mui/material'

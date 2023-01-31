@@ -6,11 +6,18 @@ import MeditationImage from '../public/banner-2.webp';
 import CoursesImage from '../public/banner-3pic.webp';
 import HomeCss from '../styles/Home.module.css';
 import ListItemPic from '../public/list-item.png';
+import Head from 'next/head'
 
 
 const Course = () => {
   return (
     <>
+    <Head>
+        <title>Course</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="/course/" />
+      </Head>
       {/* Banner Section */}
       <section>
           <Container maxWidth="xxl" className={HomeCss.home}>

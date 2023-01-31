@@ -13,7 +13,10 @@ const AboutUs = () => {
   return (
     <>
       <Head>
-    <meta name="robots" content="noindex" />
+        <title>About us</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="/about-us/" />
       </Head>
       <section>
         <Container maxWidth="xxl" className={HomeCss.home}>

@@ -7,6 +7,7 @@ import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import Link from 'next/link'
+import Head from 'next/head'
 
 const ContactUs = () => {
 
@@ -17,7 +18,12 @@ const ContactUs = () => {
   };
   return (
     <>
-
+<Head>
+        <title>Contact us</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="/contact-us/" />
+      </Head>
       {/* Banner Section */}
       <section>
         <Container maxWidth="xxl" className={HomeCss.home}>

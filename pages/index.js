@@ -20,7 +20,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper";
-
+import Head from 'next/head'
 
 
 const Home = () => {
@@ -35,9 +35,12 @@ const Home = () => {
 
   return (
     <>
-      <Head>
- <meta name="robots" content="noindex" />
-
+      
+<Head>
+        <title>Home</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="/" />
       </Head>
       <main>
         {/* Banner Section */}

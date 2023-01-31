@@ -20,7 +20,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper";
-import Head from 'next/head'
+
 
 
 const Home = () => {

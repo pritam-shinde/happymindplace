@@ -111,7 +111,7 @@ const Home = () => {
                       </Box>
 
                       <Box className={`animate__animated animate__fadeInUp py-4`}>
-                        <Typography variant='h4' className='py-lg-3 py-3'>To Whom This Reyreat is Suitable?</Typography>
+                        <Typography variant='h4' className='py-lg-3 py-3'>To Whom This Retreat is Suitable?</Typography>
                         <Typography className={HomeCss.aboutP} variant='p'>This retreat is open for all the levels of meditators, </Typography>
                         <Typography className={HomeCss.SecHead} variant='p'>even if you have never meditated before</Typography>
                       </Box>

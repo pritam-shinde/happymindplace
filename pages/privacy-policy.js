@@ -3,12 +3,18 @@ import React from 'react'
 import { Box, Container, Grid, Typography } from '@mui/material'
 import HomeCss from '../styles/Home.module.css';
 import BannerImage from '../public/Untitled-1_11zon.webp';
+import Head from 'next/head'
 
 
 const privacy = () => {
     return (
         <>
-
+<Head>
+        <title>Privacy Policy</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="/privacy-policy/" />
+      </Head>
             {/* Banner Section */}
             <section>
                 <Container maxWidth="xxl" className={HomeCss.home}>

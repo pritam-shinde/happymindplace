@@ -8,6 +8,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CoursesImage from '../public/banner-3pic.webp';
 import Image from 'next/legacy/image'
+import Head from 'next/head'
 
 
 
@@ -15,7 +16,12 @@ const FAQ = () => {
 
   return (  
     <>
-
+<Head>
+        <title>FAQ</title>
+        <meta name="description" content="" />
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="/faq/" />
+      </Head>
       {/* Banner Section */}
       <section>
         <Container maxWidth="xxl" className={HomeCss.home}>

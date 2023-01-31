@@ -11,6 +11,9 @@ import Image from 'next/legacy/image'
 const AboutUs = () => {
   return (
     <>
+      <Head>
+    <meta name="robots" content="noindex" />
+      </Head>
       <section>
         <Container maxWidth="xxl" className={HomeCss.home}>
           <Grid container >

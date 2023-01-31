@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <>
       <Head>
-
+ <meta name="robots" content="noindex" />
 
       </Head>
       <main>
